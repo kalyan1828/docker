@@ -1,5 +1,5 @@
 FROM nginx
 MAINTAINER kalyan goud
 LABEL this is nginix docker file
-VOLUME ["dev"]
+COPY index.html /usr/share/nginx/html
 EXPOSE 80
